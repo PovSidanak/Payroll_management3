@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@100;200;300;400&display=swap');
+
+
+
+:root{
+    --dark1: #0000004d;
+    --dark2: #181c20;
+    --dark3: #8f8f8f;
+    --dark4: #dee2e6;
+    --dark5: #424549;
+    --dark6: #abb0b6;
+    --dark7: #9c9c9c;
+    --dark8: #000000;
+    --dark9: rgb(242 242 242);
+    --red1: #902e31;
+}
+
+ #PayrollTable {
+    /* display: none; */
+    animation: fade 0.3s ease;
+  }
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  form{
+      justify-content: center;
+      align-items: center;
+      padding-left: 100px;
+      padding-top: 40px;
+      font-size: 20px;
+  }
+  input[type=name],input[type=email],input[type=number],input[type=date]{
+      background-color: rgb(223, 217, 210);
+      height: 30px;
+      border-radius: 6px;
+      width: 250px;
+  }
+  #gender , #department{
+      background-color: rgb(223, 217, 210);
+      height: 35px;
+      border-radius: 6px;
+      width: 257px;
+
+
+  }
+*, *::before, *::after {
+    box-sizing: border-box;
+    text-align: left;
+}
+

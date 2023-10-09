@@ -1,0 +1,48 @@
+[
+    {"id": "1",
+    "name": "TAl Tongsreng",
+     "course": "Software Engineering",
+     "salary" : "500",
+     "hw": "25"},
+     
+     {"id": "2",
+     "name": "CHHUN Thavrac",
+     "course": "Internet Programming",
+     "salary" : "500",
+     "hw": "25"},
+
+     {"id": "3",
+     "name": "BOU Channa",
+     "course": "Human Computer Interaction",
+     "salary" : "500",
+     "hw": "25"},
+
+     {"id": "4",
+    "name": "HENG Rathpisey",
+     "course": "Oprating Sytem",
+     "salary" : "500",
+     "hw": "25"},
+    
+     {"id": "5",
+    "name": "KHEANG Hongly",
+     "course": "Network II",
+     "salary" : "500",
+     "hw": "15"},
+
+     {"id": "6",
+     "name": "CHEA Socheat",
+     "course": "Telecommunication",
+     "salary" : "500",
+     "hw": "15"},
+
+     {"id": "7",
+     "name": "NOP Phearum",
+     "course": "Advanced Database and DBMS",
+     "salary" : "300",
+     "hw": "20"}
+
+
+
+
+     
+]

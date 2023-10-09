@@ -1,0 +1,345 @@
+/*remove margin page*/
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+font
+/*---*/
+body#loginBody{
+	background: url('../images/login-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+body{
+	font-style: normal;
+}
+
+/*dashboard style*/
+#dashboardMainContainer{
+	display: flex;
+	flex-direction: row;
+}
+div.dashboard_sidebar{
+	width: 20%;
+	background: #323232;
+	height: 100vh;
+}
+div.dashboard_content_container{
+	width: 80%;
+	background: #f1f1f9;
+}
+h3.dashboard_logo{
+	color: #0074d9;
+	font-size: 80px;
+	text-align: center;
+}
+div.dashboard_sidebar_user{
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+div.dashboard_sidebar_user img{
+	width: 80px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #0074d9;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+div.dashboard_sidebar_user span{
+	top: 20%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+}
+ul.dashboard_menu_lists{
+	padding: 0px;
+	margin-top: 20px;
+}
+ul.dashboard_menu_lists li{
+	padding: 15px 15px;
+	text-transform: uppercase;
+}
+ul.dashboard_menu_lists li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+}
+ul.dashboard_menu_lists li a i{
+	font-size: 25px;
+}
+ul.dashboard_menu_lists li.menuActive{
+	background: #0074d9;
+	color: #fff;
+}
+ul.dashboard_menu_lists li:hover{
+	background: #0074d9;
+	color: #fff;
+	transition: 0.3s all;
+}
+div.dashboard_topNav{
+	background: #fff;
+	padding: 20px;
+}
+div.dashboard_topNav a{
+	color:#a5a5a5;
+	font-size: 18px;
+	text-decoration: none;
+}
+a#logoutBtn{
+	float: right;
+}
+div.dashboard_content{
+	padding: 10px 10px 10px 10px;
+}
+div.dashboard_content_main{
+	background: #fff;
+	min-height: 800px;
+	height: 100%;
+}
+/*basic*/
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: #F3F3F3;
+}
+
+#page-inner {
+    width: 100%;
+    background-color: #fff!important;
+    padding: 10px;
+    min-height: 80vh;
+}
+.page-head-line {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00CA79;
+    margin-bottom: 10px;
+}
+ /*bootstrap*/
+ /*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+pre {
+	overflow: auto;
+  }
+
+
+
+
+  body {
+	background-color: #fff;
+  }
+
+  .table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+  }
+
+
+  .btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+			user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+  }
+
+  .btn:hover,
+  .btn:focus {
+	color: #333;
+	text-decoration: none;
+  }
+
+  .btn-default:hover,
+
+  .btn-primary {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+  }
+
+  .panel {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+			box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  }
+  .panel-body {
+	padding: 15px;
+  }
+  .panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+  }
+  .panel-heading > .dropdown .dropdown-toggle {
+	color: inherit;
+  }
+  .panel-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: inherit;
+  }
+
+
+
+  .panel-default {
+	border-color: #ddd;
+  }
+  .panel-default > .panel-heading {
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+  }
+
+  nav {
+	background-color: rgb(255, 255, 255);
+  }
+
+  .nav__links a {
+	font-size: 16px;
+	color: var(--white);
+	transition: 0.3s;
+  }
+
+  .nav__links a:hover {
+	color: #00ff22;
+  }
+
+  .nav__links i {
+	font-size: 19.2px;
+  }
+
+
+
+
+.modal-header{
+    background: #0d6efd;
+    color: #fff;
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .imgholder{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgholder .upload{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.imgholder:hover .upload{
+    display: flex;
+}
+
+.imgholder .upload input{
+    display: none;
+}
+
+.modal-body form .inputField{
+    flex-basis: 88%;
+    padding-left: 88px;
+}
+
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+
+form .inputField > div input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+.modal-footer .submit{
+    font-size: 18px;
+}
+
+
+#readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+}
+
+
+.section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.nav__links {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pull-right {
+    float: right;
+}
